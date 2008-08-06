@@ -13,7 +13,7 @@ Source0:	http://ftp.gnu.org/gnu/teseq/%{name}-%{version}.tar.bz2
 # Source0-md5:	a9d7338d2ac22f2e4b5c44c8f34ffb65
 URL:		http://www.gnu.org/software/teseq/
 BuildRequires:	autoconf
-BuildRequires:	automake
+BuildRequires:	automake >= 1.10.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
